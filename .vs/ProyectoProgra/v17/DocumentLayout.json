@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gui\\Desktop\\ProyectoProgra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\Users\\gui\\Desktop\\ProyectoProgra\\ProyectoProgra\\ProyectoProgra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\ProyectoProgra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProyectoProgra.cpp",
+              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\ProyectoProgra\\ProyectoProgra\\ProyectoProgra.cpp",
+              "RelativeDocumentMoniker": "ProyectoProgra\\ProyectoProgra.cpp",
+              "ToolTip": "C:\\Users\\gui\\Desktop\\ProyectoProgra\\ProyectoProgra\\ProyectoProgra.cpp",
+              "RelativeToolTip": "ProyectoProgra\\ProyectoProgra.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-21T02:29:49.33Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
