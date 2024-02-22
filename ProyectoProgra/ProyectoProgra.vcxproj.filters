@@ -13,10 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de origen\Cola">
+      <UniqueIdentifier>{aa56a9c5-1bf5-402a-9935-e51fcd241ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Utilidades">
+      <UniqueIdentifier>{dd7a93d2-64e8-4729-af7e-001dd77b07f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ProyectoProgra.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="Arreglos.cpp">
+      <Filter>Archivos de origen\Cola</Filter>
+    </ClCompile>
+    <ClCompile Include="PagoMensualidad.cpp">
+      <Filter>Archivos de origen\Cola</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilidades.cpp">
+      <Filter>Archivos de origen\Utilidades</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arreglos.h">
+      <Filter>Archivos de origen\Cola</Filter>
+    </ClInclude>
+    <ClInclude Include="PagoMensualidad.h">
+      <Filter>Archivos de origen\Cola</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilidades.h">
+      <Filter>Archivos de origen\Utilidades</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

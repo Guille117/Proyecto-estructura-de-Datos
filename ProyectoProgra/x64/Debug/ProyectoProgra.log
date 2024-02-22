@@ -1,0 +1,3 @@
+﻿  PagoMensualidad.cpp
+C:\Users\gui\Desktop\ProyectoProgra\ProyectoProgra\PagoMensualidad.cpp(15,6): warning C4101: 'ciclo': variable local sin referencia
+  ProyectoProgra.vcxproj -> C:\Users\gui\Desktop\ProyectoProgra\x64\Debug\ProyectoProgra.exe
