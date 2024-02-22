@@ -1,3 +1,5 @@
-﻿  PagoMensualidad.cpp
-C:\Users\gui\Desktop\ProyectoProgra\ProyectoProgra\PagoMensualidad.cpp(15,6): warning C4101: 'ciclo': variable local sin referencia
+﻿  mainPruebas.cpp
+  ProyectoProgra.cpp
+  Generando código...
+  LINK : no se encontró C:\Users\gui\Desktop\ProyectoProgra\x64\Debug\ProyectoProgra.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
   ProyectoProgra.vcxproj -> C:\Users\gui\Desktop\ProyectoProgra\x64\Debug\ProyectoProgra.exe
