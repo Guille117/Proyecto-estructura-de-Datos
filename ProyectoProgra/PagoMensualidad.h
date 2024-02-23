@@ -5,6 +5,7 @@
 using namespace std;
 
 struct PagoMensualidad {
+	int idPago;
 	string nombre;
 	string apellido;
 	string identificador;
@@ -20,12 +21,16 @@ struct Nodo {
 };
 
 void iniciarCola(Nodo*&, Nodo*&);
-PagoMensualidad pedirDatos();	
+PagoMensualidad pedirDatos(bool);	
 void push(Nodo*&, Nodo *&, PagoMensualidad);
-void mostrar();
-void pop();
+void mostrar(Nodo*);
+void pop(Nodo*&, Nodo*&, bool);
 void menu();
 void iniciar();
+void mostrar1Nodo(Nodo*);
+void vaciarRegistros(Nodo*&, Nodo*& fin);
+Nodo* buscarRegistro(Nodo *);
+void modificarRegistro(Nodo* );
 
 
 

@@ -3,25 +3,25 @@
 #include<iostream>
 using namespace std;
 
-const std::string Carrera[] = {
+const std::string Carrera[] = {				
 "INGENIERIA EN SISTEMAS",
 "PSICOLOGIA",
 "DERECHO",
-"ADMINISTRACION DE EMPRESAS",
+"CRIMINOLOGIA",
 "TRABAJO SOCIAL"
 };
 
 const string Mes[] = {
-	"FEBRERO",
-	"MARZO",
-	"ABRIL",
-	"MAYO",
-	"JUNIO",
-	"JULIO",
-	"AGUSTO",
-	"SEPTIEMBRE",
-	"OCTUBRE",
-	"NOVIEMBRE"
+	"Febrero",
+	"Marzo",
+	"Abril",
+	"Mayo",
+	"Junio",
+	"Julio",
+	"Agosto",
+	"Septiembre",
+	"Octubre",
+	"Noviembre"
 };
 
 const float cantidad[] = {

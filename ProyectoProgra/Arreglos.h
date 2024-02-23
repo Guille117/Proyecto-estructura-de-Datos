@@ -5,7 +5,7 @@
 #include <string>
 using namespace std;
 
-extern const std::string Carrera[];
+extern const string Carrera[];
 extern const string Mes[];
 extern const float cantidad[];
 extern const string semestre[];
