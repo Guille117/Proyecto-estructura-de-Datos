@@ -207,7 +207,7 @@ void mostrar1Nodo(Nodo* nodo) {
 		gotoxy(x, y++);cout << " Nombre: " << nodo->pago.nombre;
 		gotoxy(x, y++);cout << " Apellido: " << nodo->pago.apellido;
 		gotoxy(x, y++);cout << " Carne: " << nodo->pago.identificador;
-		gotoxy(x, y++);cout << " Carrero: " << nodo->pago.carrera;
+		gotoxy(x, y++);cout << " Facultad: " << nodo->pago.carrera;
 		gotoxy(x, y++);cout << " Semestre: " << nodo->pago.semestre;
 		gotoxy(x, y++);cout << " Mes: " << nodo->pago.mes;
 		gotoxy(x, y++);cout << " Cantidad: " << nodo->pago.cantidad<<" ";_getch();
