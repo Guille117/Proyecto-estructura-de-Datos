@@ -19,6 +19,9 @@
     <Filter Include="Archivos de origen\Utilidades">
       <UniqueIdentifier>{dd7a93d2-64e8-4729-af7e-001dd77b07f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de origen\Pila">
+      <UniqueIdentifier>{c5e71f83-f1a5-40e2-a779-f5b5be657edf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ProyectoProgra.cpp">
@@ -33,8 +36,8 @@
     <ClCompile Include="Utilidades.cpp">
       <Filter>Archivos de origen\Utilidades</Filter>
     </ClCompile>
-    <ClCompile Include="mainPruebas.cpp">
-      <Filter>Archivos de origen</Filter>
+    <ClCompile Include="nuevoIngreso.cpp">
+      <Filter>Archivos de origen\Pila</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -46,6 +49,12 @@
     </ClInclude>
     <ClInclude Include="Utilidades.h">
       <Filter>Archivos de origen\Utilidades</Filter>
+    </ClInclude>
+    <ClInclude Include="rlutil.h">
+      <Filter>Archivos de origen\Pila</Filter>
+    </ClInclude>
+    <ClInclude Include="nuevoIngreso.h">
+      <Filter>Archivos de origen\Pila</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

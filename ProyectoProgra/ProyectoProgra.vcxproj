@@ -128,14 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Arreglos.cpp" />
-    <ClCompile Include="mainPruebas.cpp" />
+    <ClCompile Include="nuevoIngreso.cpp" />
     <ClCompile Include="PagoMensualidad.cpp" />
     <ClCompile Include="ProyectoProgra.cpp" />
     <ClCompile Include="Utilidades.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arreglos.h" />
+    <ClInclude Include="nuevoIngreso.h" />
     <ClInclude Include="PagoMensualidad.h" />
+    <ClInclude Include="rlutil.h" />
     <ClInclude Include="Utilidades.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
