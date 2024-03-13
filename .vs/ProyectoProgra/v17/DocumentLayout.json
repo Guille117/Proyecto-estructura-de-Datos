@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gui\\Desktop\\ProyectoProgra\\",
+  "WorkspaceRootPath": "C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\Users\\gui\\Desktop\\ProyectoProgra\\ProyectoProgra\\ProyectoProgra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\PagoMensualidad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\PagoMensualidad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\nuevoIngreso.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\PagoMensualidad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\PagoMensualidad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\ProyectoProgra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\ProyectoProgra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\Users\\gui\\Desktop\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\nuevoIngreso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\Users\\gui\\Desktop\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\nuevoIngreso.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "nuevoIngreso.h",
-              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.h",
-              "RelativeDocumentMoniker": "ProyectoProgra\\nuevoIngreso.h",
-              "ToolTip": "C:\\Users\\gui\\Desktop\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.h",
-              "RelativeToolTip": "ProyectoProgra\\nuevoIngreso.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-02-24T03:15:39.603Z",
+              "DocumentIndex": 0,
+              "Title": "PagoMensualidad.cpp",
+              "DocumentMoniker": "C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\PagoMensualidad.cpp",
+              "RelativeDocumentMoniker": "ProyectoProgra\\PagoMensualidad.cpp",
+              "ToolTip": "C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\PagoMensualidad.cpp",
+              "RelativeToolTip": "ProyectoProgra\\PagoMensualidad.cpp",
+              "ViewState": "AQIAAAcBAAAAAAAAAAAQwIQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-28T03:29:22.552Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PagoMensualidad.h",
+              "DocumentMoniker": "C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\PagoMensualidad.h",
+              "RelativeDocumentMoniker": "ProyectoProgra\\PagoMensualidad.h",
+              "ToolTip": "C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\PagoMensualidad.h",
+              "RelativeToolTip": "ProyectoProgra\\PagoMensualidad.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-27T03:16:22.683Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "nuevoIngreso.cpp",
-              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.cpp",
-              "RelativeDocumentMoniker": "ProyectoProgra\\nuevoIngreso.cpp",
-              "ToolTip": "C:\\Users\\gui\\Desktop\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.cpp",
-              "RelativeToolTip": "ProyectoProgra\\nuevoIngreso.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-02-24T02:10:20.78Z",
-              "EditorCaption": ""
+              "Title": "nuevoIngreso.h",
+              "DocumentMoniker": "C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.h",
+              "RelativeDocumentMoniker": "ProyectoProgra\\nuevoIngreso.h",
+              "ToolTip": "C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.h",
+              "RelativeToolTip": "ProyectoProgra\\nuevoIngreso.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-24T03:15:39.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProyectoProgra.cpp",
-              "DocumentMoniker": "C:\\Users\\gui\\Desktop\\ProyectoProgra\\ProyectoProgra\\ProyectoProgra.cpp",
-              "RelativeDocumentMoniker": "ProyectoProgra\\ProyectoProgra.cpp",
-              "ToolTip": "C:\\Users\\gui\\Desktop\\ProyectoProgra\\ProyectoProgra\\ProyectoProgra.cpp",
-              "RelativeToolTip": "ProyectoProgra\\ProyectoProgra.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAwwB0AAAAnAAAA",
+              "DocumentIndex": 4,
+              "Title": "nuevoIngreso.cpp",
+              "DocumentMoniker": "C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.cpp",
+              "RelativeDocumentMoniker": "ProyectoProgra\\nuevoIngreso.cpp",
+              "ToolTip": "C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.cpp",
+              "RelativeToolTip": "ProyectoProgra\\nuevoIngreso.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-02-24T01:32:17.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-24T02:10:20.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProyectoProgra.cpp",
+              "DocumentMoniker": "C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\ProyectoProgra.cpp",
+              "RelativeDocumentMoniker": "ProyectoProgra\\ProyectoProgra.cpp",
+              "ToolTip": "C:\\Users\\gui\\Documents\\Univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\ProyectoProgra.cpp",
+              "RelativeToolTip": "ProyectoProgra\\ProyectoProgra.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwwBIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-24T01:32:17.874Z"
             }
           ]
         }

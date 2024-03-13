@@ -1,2 +1,10 @@
-﻿  ProyectoProgra.cpp
-  ProyectoProgra.vcxproj -> C:\Users\gui\Desktop\ProyectoProgra\x64\Debug\ProyectoProgra.exe
+﻿  Arreglos.cpp
+  nuevoIngreso.cpp
+C:\Users\gui\Documents\Univ\quinto\progra 3\ProyectoProgra\ProyectoProgra\rlutil.h(580,20): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned int'; posible pérdida de datos
+  (compilando archivo de origen "nuevoIngreso.cpp")
+  
+  PagoMensualidad.cpp
+  ProyectoProgra.cpp
+  Utilidades.cpp
+  Generando código...
+  ProyectoProgra.vcxproj -> C:\Users\gui\Documents\Univ\quinto\progra 3\ProyectoProgra\x64\Debug\ProyectoProgra.exe

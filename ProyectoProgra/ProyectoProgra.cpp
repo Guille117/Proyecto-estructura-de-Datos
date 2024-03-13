@@ -28,7 +28,7 @@ int main() {
         case 1: menuPila(); break;
         case 2: iniciar(); break;
         case 3: system("cls"); gotoxy(35, 10); cout << "Fin del programa...\n\n\n\n\n"; break;
-        default: system("cls"); gotoxy(10, 10); cout << "Opcion incorrecta...";
+        default: system("cls"); gotoxy(35, 10); cout << "Opcion incorrecta...";_getch();
         }
     } while (op != 3);
     
