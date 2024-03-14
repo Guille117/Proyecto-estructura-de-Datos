@@ -12,3 +12,6 @@ x64
 *.lastbuildstate
 
 .vscode/
+
+.vs/ProyectoProgra/v17/.suo
+.vs/ProyectoProgra/v17/Browse.VC.db
