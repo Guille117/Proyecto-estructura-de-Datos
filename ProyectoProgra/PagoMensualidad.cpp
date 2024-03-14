@@ -103,7 +103,7 @@ PagoMensualidad pedirDatos(bool modificar) {
 	}
 	else {
 		aux = (RecorrerArregloString2(Mes, x + 1, y + 2, 0, 5));		
-		cout << aux;
+		//cout << aux;
 	}
 	gotoxy(x, y);   cout << " Mes: " << Mes[aux-1];
 	p.mes = Mes[aux-1];
@@ -130,7 +130,7 @@ void push(Nodo*& inicio, Nodo*& fin, PagoMensualidad pagoM) {
 
 	fin = nuevoNodo;					// cambiamos el fin
 
-	gotoxy(x, y + 2);cout << "Dato ingresado con exito.";_getch();
+	gotoxy(x, y + 2); cout << "Dato ingresado con exito.";_getch();
 }
 
 void mostrar(Nodo* inicio) {
@@ -227,12 +227,13 @@ void modificarRegistro(Nodo* inicio) {
 		aux = buscarRegistro(inicio);
 		mostrar1Nodo(aux);
 		if (aux != nullptr) {
-			gotoxy(10, 15);cout << " Reingreso de datos.";
+			gotoxy(10, 16);cout << " Reingreso de datos.";
 			pgo = pedirDatos(true);
 			pgo.idPago = aux->pago.idPago;
 
 			aux->pago = pgo;
 			idPago--;
+			cout << "			Registro modificado con exito...";
 			_getch();
 		}
 		
