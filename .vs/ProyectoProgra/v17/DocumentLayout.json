@@ -5,22 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\PagoMensualidad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\PagoMensualidad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\nuevoIngreso.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\PagoMensualidad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\PagoMensualidad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\ProyectoProgra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\ProyectoProgra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\nuevoIngreso.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,58 +24,10 @@
               "RelativeDocumentMoniker": "ProyectoProgra\\PagoMensualidad.cpp",
               "ToolTip": "C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\PagoMensualidad.cpp",
               "RelativeToolTip": "ProyectoProgra\\PagoMensualidad.cpp",
-              "ViewState": "AQIAAA0BAAAAAAAAAAAQwIQAAAAcAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAPIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-02-28T03:29:22.552Z",
+              "WhenOpened": "2024-03-14T04:18:06.754Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PagoMensualidad.h",
-              "DocumentMoniker": "C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\PagoMensualidad.h",
-              "RelativeDocumentMoniker": "ProyectoProgra\\PagoMensualidad.h",
-              "ToolTip": "C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\PagoMensualidad.h",
-              "RelativeToolTip": "ProyectoProgra\\PagoMensualidad.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-02-27T03:16:22.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "nuevoIngreso.h",
-              "DocumentMoniker": "C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.h",
-              "RelativeDocumentMoniker": "ProyectoProgra\\nuevoIngreso.h",
-              "ToolTip": "C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.h",
-              "RelativeToolTip": "ProyectoProgra\\nuevoIngreso.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-02-24T03:15:39.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "nuevoIngreso.cpp",
-              "DocumentMoniker": "C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.cpp",
-              "RelativeDocumentMoniker": "ProyectoProgra\\nuevoIngreso.cpp",
-              "ToolTip": "C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\nuevoIngreso.cpp",
-              "RelativeToolTip": "ProyectoProgra\\nuevoIngreso.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-02-24T02:10:20.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProyectoProgra.cpp",
-              "DocumentMoniker": "C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\ProyectoProgra.cpp",
-              "RelativeDocumentMoniker": "ProyectoProgra\\ProyectoProgra.cpp",
-              "ToolTip": "C:\\univ\\quinto\\progra 3\\ProyectoProgra\\ProyectoProgra\\ProyectoProgra.cpp",
-              "RelativeToolTip": "ProyectoProgra\\ProyectoProgra.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAwwBIAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-02-24T01:32:17.874Z"
             }
           ]
         }

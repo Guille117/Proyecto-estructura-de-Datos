@@ -11,7 +11,7 @@
 using namespace std;
 
 void portada();
-void menuPrincipal();
+int menuPrincipal();
 
 
 
@@ -21,8 +21,8 @@ int main() {
     portada();
 
     do {
-        menuPrincipal();
-        cin >> op;
+        
+        op = menuPrincipal();
 
         switch (op) {
         case 1: menuPila(); break;
@@ -56,15 +56,15 @@ void portada() {
     gotoxy(15, 20); wcout << "Precione ENTER para continuar:  ";_getch();
 }
 
-void menuPrincipal() {
+int menuPrincipal() {
     system("cls");
     system("color 0B");
     setlocale(LC_ALL, "");
 
         gotoxy(30, 5); cout << "**** UNIVERSIDAD DEL OCCIDENTE ******";
-        gotoxy(30, 6); cout << "**  Ingreso de Datos (Pila)....[1] **";
-        gotoxy(30, 7); cout << "**  Pago de matricula (Cola)...[2] **";
-        gotoxy(30, 8); cout << "**  Cierre del Programa........[3] **";
-        gotoxy(30, 9); cout << "*************************************";
-        gotoxy(30, 10); cout << " Ingrese Una Opcion: ";
+        gotoxy(34, 8); cout << " Ingreso de Datos. (Pila)";
+        gotoxy(34, 9); cout << " Pago de matricula. (Cola)";
+        gotoxy(34, 10); cout << " Cierre del Programa.";
+
+        return navegador(32, 8, 3);
 }

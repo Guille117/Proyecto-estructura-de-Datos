@@ -25,7 +25,7 @@ PagoMensualidad pedirDatos(bool);
 void push(Nodo*&, Nodo *&, PagoMensualidad);
 void mostrar(Nodo*);
 void pop(Nodo*&, Nodo*&, bool);
-void menu();
+int menuCola();
 void iniciar();
 void mostrar1Nodo(Nodo*);
 void vaciarRegistros(Nodo*&, Nodo*& fin);

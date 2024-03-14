@@ -12,18 +12,18 @@ void iniciarCola(Nodo*& inicio, Nodo*& final) {
 	final = nullptr;
 }
 
-void menu() {
+int menuCola() {
 	int y = 7, x = 30;
 	system("cls");
 	gotoxy(x-5, y);cout << "  Opciones para Pago de Mensualidad.";
-	gotoxy(x, y+=3);cout << "  1. Realizar pago. ";
-	gotoxy(x, y+=1);cout << "  2. Mostrar pagos. ";
-	gotoxy(x, y+=1);cout << "  3. Buscar pago. ";
-	gotoxy(x, y+=1);cout << "  4. Modificar pago. ";
-	gotoxy(x, y+=1);cout << "  5. Eliminar pago. ";
-	gotoxy(x, y+=1);cout << "  6. Vaciar pagos. ";
-	gotoxy(x, y+=1);cout << "  7. Atras. ";
-	gotoxy(x, y+=2);cout << "	Opcion: ";
+	gotoxy(x, y+=3);cout << "Realizar pago. ";
+	gotoxy(x, y+=1);cout << "Mostrar pagos. ";
+	gotoxy(x, y+=1);cout << "Buscar pago. ";
+	gotoxy(x, y+=1);cout << "Modificar pago. ";
+	gotoxy(x, y+=1);cout << "Eliminar pago. ";
+	gotoxy(x, y+=1);cout << "Vaciar pagos. ";
+	gotoxy(x, y+=1);cout << "Atras. ";
+	return navegador(x - 3, y -6, 7);
 }
 
 void iniciar() {
@@ -33,8 +33,8 @@ void iniciar() {
 	iniciarCola(inicio, fin);
 
 	do {
-		menu();
-		cin >> opcion;
+		
+		opcion = menuCola();
 
 		switch (opcion) {
 		case 1: system("cls"); push(inicio, fin, pedirDatos(false));break;
@@ -55,7 +55,8 @@ void iniciar() {
 // esta función la usaremos en dos partes distintas, servirá para recibir los datos para crear el nodo y también para pedir los datos para la 
 // actualización de datos, por eso recibe un dato bool para indicar en que se usará para definir  las coordenadas
 
-PagoMensualidad pedirDatos(bool modificar) {		
+PagoMensualidad pedirDatos(bool modificar) {	
+	MostrarCursor();
 	if (modificar) {
 		y += 4;
 	}
@@ -98,9 +99,11 @@ PagoMensualidad pedirDatos(bool modificar) {
 	gotoxy(x, y += 1);   cout << " Mes: ";
 	if (esPar(aux)) {													// separamos los meses a corde el semestre
 		aux = (RecorrerArregloString2(Mes, x + 1, y + 2, 5, 10));
+		aux += 5;														// si escoge un semestre de segundo ciclo aumentamos 5 por los meses anteriores
 	}
 	else {
-		aux = (RecorrerArregloString2(Mes, x + 1, y + 2, 0, 5));
+		aux = (RecorrerArregloString2(Mes, x + 1, y + 2, 0, 5));		
+		cout << aux;
 	}
 	gotoxy(x, y);   cout << " Mes: " << Mes[aux-1];
 	p.mes = Mes[aux-1];
@@ -136,7 +139,6 @@ void mostrar(Nodo* inicio) {
 
 	if (inicio != nullptr) {
 		gotoxy(x+40, y-4);cout << "Mostrando pagos de mensualidades";
-		gotoxy(x+22, y - 2);cout << "Direccion de memoria del primer elemento de la cola: "<<inicio;
 
 		int contador = 0, contadorY = 0;
 
@@ -149,6 +151,7 @@ void mostrar(Nodo* inicio) {
 			gotoxy(x, y++);cout << " Semestre: "<<inicio->pago.semestre;
 			gotoxy(x, y++);cout << " Mes:  "<<inicio->pago.mes;
 			gotoxy(x, y++);cout << " Cantidad: " << inicio->pago.cantidad << endl << endl;
+			gotoxy(x, y++);cout << " Dir. memoria: " << inicio << endl << endl;
 			inicio = inicio->siguiente;
 
 			contador++;
@@ -158,10 +161,10 @@ void mostrar(Nodo* inicio) {
 					gotoxy(x, y + 1); cout << "------->    ----->    ------->";
 
 				
-				y -= 8;
+				y -= 9;																// si se agregan mas o menos lines alterar y
 				x += 40;
 				if (contador == 3) {
-					y += 10;
+					y += 11;															// si se agregan mas o menos lines alterar y
 					for (int i = 0; i < 6;i++) {
 						gotoxy(x-15, y++);cout << "|";
 					}	
@@ -172,11 +175,11 @@ void mostrar(Nodo* inicio) {
 				if (contador <= 6) {
 					
 					gotoxy(x, y + 1); cout << "<-------    <-----    <-------";
-					y -= 8; x -= 40;
+					y -= 9; x -= 40;												// si se agregan mas o menos lines alterar y
 					
 
 					if(contador == 6){
-						x += 58; y += 10;
+						x += 58; y += 11;										    // si se agregan mas o menos lines alterar y
 						for (int i = 0; i < 6;i++) {
 							gotoxy(x - 15, y++);cout << "|";
 						}
@@ -210,7 +213,8 @@ void mostrar1Nodo(Nodo* nodo) {
 		gotoxy(x, y++);cout << " Facultad: " << nodo->pago.carrera;
 		gotoxy(x, y++);cout << " Semestre: " << nodo->pago.semestre;
 		gotoxy(x, y++);cout << " Mes: " << nodo->pago.mes;
-		gotoxy(x, y++);cout << " Cantidad: " << nodo->pago.cantidad<<" ";_getch();
+		gotoxy(x, y++);cout << " Cantidad: " << nodo->pago.cantidad;
+		gotoxy(x, y++);cout << " Direccin de memoria: " << nodo << " ";_getch();
 	}
 	
 }
@@ -244,6 +248,7 @@ Nodo* buscarRegistro(Nodo* inicio) {
 	int id;
 
 	system("cls");
+	MostrarCursor();
 	gotoxy(10, 2); cout << " Ingrese el numero de id del pago a buscar: ";
 	cin >> id;
 

@@ -1,11 +1,2 @@
-﻿  Arreglos.cpp
-  nuevoIngreso.cpp
-C:\univ\quinto\progra 3\ProyectoProgra\ProyectoProgra\rlutil.h(580,20): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned int'; posible pérdida de datos
-  (compilando archivo de origen "nuevoIngreso.cpp")
-  
-  PagoMensualidad.cpp
-  ProyectoProgra.cpp
-  Utilidades.cpp
-  Generando código...
-  LINK : no se encontró C:\univ\quinto\progra 3\ProyectoProgra\x64\Debug\ProyectoProgra.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+﻿  PagoMensualidad.cpp
   ProyectoProgra.vcxproj -> C:\univ\quinto\progra 3\ProyectoProgra\x64\Debug\ProyectoProgra.exe
