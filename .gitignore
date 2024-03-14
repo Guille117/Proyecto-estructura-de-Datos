@@ -1,0 +1,12 @@
+.vs/
+x64
+
+*.suo
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+*.tlog
+*.idb
+*.lastbuildstate
