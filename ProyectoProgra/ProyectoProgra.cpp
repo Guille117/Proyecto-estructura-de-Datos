@@ -8,6 +8,9 @@
 #include <conio.h>
 #include "PagoMensualidad.h"
 #include "nuevoIngreso.h"
+#include "ListaDE.h"
+#define COLOR "\033[36m"
+
 using namespace std;
 
 void portada();
@@ -16,6 +19,7 @@ int menuPrincipal();
 
 
 int main() {
+    cout << COLOR;
     int op = 0;
 
     portada();
@@ -27,16 +31,18 @@ int main() {
         switch (op) {
         case 1: menuPila(); break;
         case 2: iniciar(); break;
-        case 3: system("cls"); gotoxy(35, 10); cout << "Fin del programa...\n\n\n\n\n"; break;
+        case 3: system("cls"); gotoxy(35, 10); cout << "Lista enlazada simple...\n\n\n\n\n"; _getch();break;
+        case 4: system("cls"); gotoxy(35, 10); cout << "Lista enlazada circular...\n\n\n\n\n";_getch(); break;
+        case 5: iniciarListaDE();break;
+        case 6: system("cls"); gotoxy(35, 10); cout << "Fin del programa...\n\n\n\n\n"; _getch();break;
         default: system("cls"); gotoxy(35, 10); cout << "Opcion incorrecta...";_getch();
         }
-    } while (op != 3);
+    } while (op != 6);
     
 }
 
 
 void portada() {
-    system("color 0B");
     setlocale(LC_ALL, "");
     gotoxy(15, 5);  wcout << "*********************************************" << std::endl;
     gotoxy(15, 6); wcout << "* BIENVENIDO A LA UNIVERSIDAD DEL OCCIDENTE *" << std::endl;
@@ -58,13 +64,15 @@ void portada() {
 
 int menuPrincipal() {
     system("cls");
-    system("color 0B");
     setlocale(LC_ALL, "");
 
         gotoxy(30, 5); cout << "**** UNIVERSIDAD DEL OCCIDENTE ******";
-        gotoxy(34, 8); cout << " Ingreso de Datos. (Pila)";
-        gotoxy(34, 9); cout << " Pago de matricula. (Cola)";
-        gotoxy(34, 10); cout << " Cierre del Programa.";
+        gotoxy(34, 8); cout << " Inscripcion Ordinaria.     (Pila)";
+        gotoxy(34, 9); cout << " Pago de Mensualidad.       (Cola)";
+        gotoxy(34, 10); cout << " Pendiente.                 (Lista enlazada simple)";
+        gotoxy(34, 11); cout << " Pendiente.                 (Lista enlazada simple circular)";
+        gotoxy(34, 12); cout << " Pago de semestre.          (Lista enlazada doble)";
+        gotoxy(34, 13); cout << " Cierre del Programa.";
 
-        return navegador(32, 8, 3);
+        return navegador(32, 8, 6);
 }

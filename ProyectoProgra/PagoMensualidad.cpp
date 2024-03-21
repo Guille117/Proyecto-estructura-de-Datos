@@ -13,7 +13,7 @@ void iniciarCola(Nodo*& inicio, Nodo*& final) {
 }
 
 int menuCola() {
-	int y = 7, x = 30;
+	y = 7, x = 30;
 	system("cls");
 	gotoxy(x-5, y);cout << "  Opciones para Pago de Mensualidad.";
 	gotoxy(x, y+=3);cout << "Realizar pago. ";

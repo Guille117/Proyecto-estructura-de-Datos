@@ -22,6 +22,9 @@
     <Filter Include="Archivos de origen\Pila">
       <UniqueIdentifier>{c5e71f83-f1a5-40e2-a779-f5b5be657edf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de origen\LDE">
+      <UniqueIdentifier>{433111d0-58b2-44c9-8f0b-547a7f844798}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ProyectoProgra.cpp">
@@ -39,6 +42,9 @@
     <ClCompile Include="nuevoIngreso.cpp">
       <Filter>Archivos de origen\Pila</Filter>
     </ClCompile>
+    <ClCompile Include="ListaDE.cpp">
+      <Filter>Archivos de origen\LDE</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arreglos.h">
@@ -55,6 +61,9 @@
     </ClInclude>
     <ClInclude Include="nuevoIngreso.h">
       <Filter>Archivos de origen\Pila</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaDE.h">
+      <Filter>Archivos de origen\LDE</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
