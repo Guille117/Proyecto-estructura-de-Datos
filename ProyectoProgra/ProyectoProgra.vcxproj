@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Arreglos.cpp" />
     <ClCompile Include="ListaDE.cpp" />
+    <ClCompile Include="NotaFinal.cpp" />
     <ClCompile Include="nuevoIngreso.cpp" />
     <ClCompile Include="PagoMensualidad.cpp" />
     <ClCompile Include="ProyectoProgra.cpp" />
@@ -137,6 +138,7 @@
   <ItemGroup>
     <ClInclude Include="Arreglos.h" />
     <ClInclude Include="ListaDE.h" />
+    <ClInclude Include="NotaFinal.h" />
     <ClInclude Include="nuevoIngreso.h" />
     <ClInclude Include="PagoMensualidad.h" />
     <ClInclude Include="rlutil.h" />

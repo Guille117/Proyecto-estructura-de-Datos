@@ -338,7 +338,7 @@ void eliminarLDE(LDE_Nodo*& inicio, LDE_Nodo*& fin) {
 
 			mostrar1Pago(aEliminar);
 			delete aEliminar;
-			cout << "\n			 Pago eliminado con exito...";_getch();
+			cout << "\n\n			 Pago eliminado con exito...";_getch();
 		}
 		else {
 			cout << "\n\n		 Dato no encontrado...\n";

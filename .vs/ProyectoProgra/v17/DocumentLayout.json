@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "U:\\U\\quinto\\progra 3\\Proyecto-progra3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\Utilidades.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\Utilidades.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\ProyectoProgra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\ProyectoProgra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\PagoMensualidad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\PagoMensualidad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\ListaDE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\ListaDE.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\ListaDE.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B2A0EC9E-6DD2-4939-AB0C-C5ADC97C7FF1}|ProyectoProgra\\ProyectoProgra.vcxproj|solutionrelative:ProyectoProgra\\ListaDE.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProyectoProgra.cpp",
-              "DocumentMoniker": "U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\ProyectoProgra.cpp",
-              "RelativeDocumentMoniker": "ProyectoProgra\\ProyectoProgra.cpp",
-              "ToolTip": "U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\ProyectoProgra.cpp",
-              "RelativeToolTip": "ProyectoProgra\\ProyectoProgra.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-21T02:43:50.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Utilidades.cpp",
-              "DocumentMoniker": "U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\Utilidades.cpp",
-              "RelativeDocumentMoniker": "ProyectoProgra\\Utilidades.cpp",
-              "ToolTip": "U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\Utilidades.cpp",
-              "RelativeToolTip": "ProyectoProgra\\Utilidades.cpp",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAACsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-21T02:09:51.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PagoMensualidad.cpp",
-              "DocumentMoniker": "U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\PagoMensualidad.cpp",
-              "RelativeDocumentMoniker": "ProyectoProgra\\PagoMensualidad.cpp",
-              "ToolTip": "U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\PagoMensualidad.cpp",
-              "RelativeToolTip": "ProyectoProgra\\PagoMensualidad.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-20T06:42:28.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ListaDE.cpp",
               "DocumentMoniker": "U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\ListaDE.cpp",
               "RelativeDocumentMoniker": "ProyectoProgra\\ListaDE.cpp",
               "ToolTip": "U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\ListaDE.cpp",
               "RelativeToolTip": "ProyectoProgra\\ListaDE.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAXAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-19T19:45:11.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ListaDE.h",
-              "DocumentMoniker": "U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\ListaDE.h",
-              "RelativeDocumentMoniker": "ProyectoProgra\\ListaDE.h",
-              "ToolTip": "U:\\U\\quinto\\progra 3\\Proyecto-progra3\\ProyectoProgra\\ListaDE.h",
-              "RelativeToolTip": "ProyectoProgra\\ListaDE.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-19T19:20:07.298Z",
+              "WhenOpened": "2024-03-23T03:55:40.561Z",
               "EditorCaption": ""
             }
           ]
