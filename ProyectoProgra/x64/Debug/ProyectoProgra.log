@@ -1,16 +1,3 @@
-﻿  Arreglos.cpp
-  ListaDE.cpp
-  NotaFinal.cpp
-C:\Users\gbixculc1\Desktop\Proyecto-estructura-de-Datos\ProyectoProgra\ListaDE.cpp(95,35): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\gbixculc1\Desktop\Proyecto-estructura-de-Datos\ProyectoProgra\rlutil.h(580,20): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned int'; posible pérdida de datos
-  (compilando archivo de origen "NotaFinal.cpp")
-  
-  nuevoIngreso.cpp
-C:\Users\gbixculc1\Desktop\Proyecto-estructura-de-Datos\ProyectoProgra\rlutil.h(580,20): warning C4267: 'inicializando': conversión de 'size_t' a 'unsigned int'; posible pérdida de datos
-  (compilando archivo de origen "nuevoIngreso.cpp")
-  
-  PagoMensualidad.cpp
-  ProyectoProgra.cpp
-  Utilidades.cpp
-  Generando código...
-  ProyectoProgra.vcxproj -> C:\Users\gbixculc1\Desktop\Proyecto-estructura-de-Datos\x64\Debug\ProyectoProgra.exe
+﻿  ListaSimple.cpp
+U:\U\quinto\progra 3\Proyecto-progra3\ProyectoProgra\ListaSimple.cpp(68,32): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  ProyectoProgra.vcxproj -> U:\U\quinto\progra 3\Proyecto-progra3\x64\Debug\ProyectoProgra.exe

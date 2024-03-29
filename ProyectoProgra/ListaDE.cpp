@@ -1,5 +1,4 @@
 #include<iostream>
-//#include<unordered_set>
 #include<conio.h>
 #include"ListaDE.h"
 #include "Utilidades.h"

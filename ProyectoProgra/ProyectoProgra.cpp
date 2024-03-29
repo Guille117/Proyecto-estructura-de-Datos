@@ -10,6 +10,7 @@
 #include "nuevoIngreso.h"
 #include "ListaDE.h"
 #include "NotaFinal.h"
+#include "ListaSimple.h"
 #define COLOR "\033[36m"
 
 using namespace std;
@@ -32,7 +33,7 @@ int main() {
         switch (op) {
         case 1: menuPila(); break;
         case 2: iniciar(); break;
-        case 3: system("cls"); gotoxy(35, 10); cout << "Lista enlazada simple...\n\n\n\n\n"; _getch();break;
+        case 3: iniciarListaS();break;
         case 4: menulistacircular(); break;
         case 5: iniciarListaDE();break;
         case 6: system("cls"); gotoxy(35, 10); cout << "Fin del programa...\n\n\n\n\n"; _getch();break;
@@ -70,7 +71,7 @@ int menuPrincipal() {
         gotoxy(30, 5); cout << "**** UNIVERSIDAD DEL OCCIDENTE ******";
         gotoxy(34, 8); cout << " Inscripcion Ordinaria.     (Pila)";
         gotoxy(34, 9); cout << " Pago de Mensualidad.       (Cola)";
-        gotoxy(34, 10); cout << " Pendiente.                 (Lista enlazada simple)";
+        gotoxy(34, 10); cout << " Pago de mora.              (Lista enlazada simple)";
         gotoxy(34, 11); cout << " Ingreso de Notas.          (Lista enlazada simple circular)";
         gotoxy(34, 12); cout << " Pago de semestre.          (Lista enlazada doble)";
         gotoxy(34, 13); cout << " Cierre del Programa.";
