@@ -28,6 +28,9 @@
     <Filter Include="Archivos de origen\LEC">
       <UniqueIdentifier>{d6a58b5c-2335-4a73-9cfe-42ad58297483}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de origen\LS">
+      <UniqueIdentifier>{13a10fa5-3bf1-4509-8748-09b4c5c04f77}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ProyectoProgra.cpp">
@@ -51,6 +54,9 @@
     <ClCompile Include="NotaFinal.cpp">
       <Filter>Archivos de origen\LEC</Filter>
     </ClCompile>
+    <ClCompile Include="ListaSimple.cpp">
+      <Filter>Archivos de origen\LS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arreglos.h">
@@ -73,6 +79,9 @@
     </ClInclude>
     <ClInclude Include="NotaFinal.h">
       <Filter>Archivos de origen\LEC</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaSimple.h">
+      <Filter>Archivos de origen\LS</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
