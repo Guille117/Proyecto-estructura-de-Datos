@@ -127,9 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ABB.cpp" />
     <ClCompile Include="Arreglos.cpp" />
     <ClCompile Include="ListaDE.cpp" />
     <ClCompile Include="ListaSimple.cpp" />
+    <ClCompile Include="mainPrueba.cpp" />
     <ClCompile Include="NotaFinal.cpp" />
     <ClCompile Include="nuevoIngreso.cpp" />
     <ClCompile Include="PagoMensualidad.cpp" />
@@ -137,6 +139,7 @@
     <ClCompile Include="Utilidades.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ABB.h" />
     <ClInclude Include="Arreglos.h" />
     <ClInclude Include="ListaDE.h" />
     <ClInclude Include="ListaSimple.h" />

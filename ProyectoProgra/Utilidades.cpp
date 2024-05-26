@@ -27,6 +27,7 @@ bool esPar(int num) {
 	return num % 2;
 }
 
+// esta función recibe tres parametros: coordenadas en X, coordenadas en Y, y numero de opciones.
 int navegador(int a, int b, int tamaño) {
     OcultarCursor();
     int contador = 1;
@@ -69,15 +70,14 @@ void MostrarCursor() {
     SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &info);
 }
 
-
 // funciones que sirven para generar numeros aleatorios
-
+// para usar esta función deberá crear y pasar una lista para guardar los números generados.
 int generarId(unordered_set<int>& Lista) {
     random_device rd;
     mt19937 gen(rd());
 
     int menor = 1;
-    int mayor = 300;
+    int mayor = 100;
     int numero = 0;
 
     uniform_int_distribution<>dis(menor, mayor);

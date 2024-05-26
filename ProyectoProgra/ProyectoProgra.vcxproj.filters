@@ -25,11 +25,14 @@
     <Filter Include="Archivos de origen\LDE">
       <UniqueIdentifier>{433111d0-58b2-44c9-8f0b-547a7f844798}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de origen\LEC">
-      <UniqueIdentifier>{d6a58b5c-2335-4a73-9cfe-42ad58297483}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Archivos de origen\LS">
       <UniqueIdentifier>{13a10fa5-3bf1-4509-8748-09b4c5c04f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\ABB">
+      <UniqueIdentifier>{3682666a-0966-46eb-9b7a-03ab0e2293aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\LEC">
+      <UniqueIdentifier>{d6a58b5c-2335-4a73-9cfe-42ad58297483}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +60,12 @@
     <ClCompile Include="ListaSimple.cpp">
       <Filter>Archivos de origen\LS</Filter>
     </ClCompile>
+    <ClCompile Include="mainPrueba.cpp">
+      <Filter>Archivos de origen\ABB</Filter>
+    </ClCompile>
+    <ClCompile Include="ABB.cpp">
+      <Filter>Archivos de origen\ABB</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arreglos.h">
@@ -82,6 +91,9 @@
     </ClInclude>
     <ClInclude Include="ListaSimple.h">
       <Filter>Archivos de origen\LS</Filter>
+    </ClInclude>
+    <ClInclude Include="ABB.h">
+      <Filter>Archivos de origen\ABB</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

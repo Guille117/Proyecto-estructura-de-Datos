@@ -12,6 +12,7 @@ void MostrarCursor();
 void OcultarCursor();
 int generarId(unordered_set<int>&);
 bool existeId(int, unordered_set<int>&);
+int anchoMax();
 
 #endif
 

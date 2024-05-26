@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <windows.h>
 #include <stdlib.h>
@@ -11,6 +10,7 @@
 #include "ListaDE.h"
 #include "NotaFinal.h"
 #include "ListaSimple.h"
+#include"ABB.h"
 #define COLOR "\033[36m"
 
 using namespace std;
@@ -36,10 +36,11 @@ int main() {
         case 3: iniciarListaS();break;
         case 4: menulistacircular(); break;
         case 5: iniciarListaDE();break;
-        case 6: system("cls"); gotoxy(35, 10); cout << "Fin del programa...\n\n\n\n\n"; _getch();break;
+        case 6: iniciarArbol();break;
+        case 7: system("cls"); gotoxy(35, 10); cout << "Fin del programa...\n\n\n\n\n"; _getch();break;
         default: system("cls"); gotoxy(35, 10); cout << "Opcion incorrecta...";_getch();
         }
-    } while (op != 6);
+    } while (op != 7);
     
 }
 
@@ -74,7 +75,8 @@ int menuPrincipal() {
         gotoxy(34, 10); cout << " Pago de mora.              (Lista enlazada simple)";
         gotoxy(34, 11); cout << " Ingreso de Notas.          (Lista enlazada simple circular)";
         gotoxy(34, 12); cout << " Pago de semestre.          (Lista enlazada doble)";
-        gotoxy(34, 13); cout << " Cierre del Programa.";
+        gotoxy(34, 13); cout << " Alquiler de toga.          (Arbol binario de busqueda)";
+        gotoxy(34, 14); cout << " Cierre del Programa.";
 
-        return navegador(32, 8, 6);
+        return navegador(32, 8, 7);
 }
